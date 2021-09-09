@@ -12,12 +12,12 @@ package bean;
 public class Alumno {
     private static final long serialVersionUID = 1L;
     private int id;
-    private String usuario;
+    private int idMateria;
+    private String username;
     private String nombre;
     private String apellidoPaterno;
     private String apellidoMaterno;
-    private int idGrupos;
-    private int idAlma;
+    private String estatus;
 
     public int getId() {
         return id;
@@ -27,12 +27,20 @@ public class Alumno {
         this.id = id;
     }
 
-    public String getUsuario() {
-        return usuario;
+    public int getIdMateria() {
+        return idMateria;
     }
 
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
+    public void setIdMateria(int idMateria) {
+        this.idMateria = idMateria;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getNombre() {
@@ -59,24 +67,13 @@ public class Alumno {
         this.apellidoMaterno = apellidoMaterno;
     }
 
-    public int getIdGrupos() {
-        return idGrupos;
+    public String getEstatus() {
+        return estatus;
     }
 
-    public void setIdGrupos(int idGrupos) {
-        this.idGrupos = idGrupos;
+    public void setEstatus(String estatus) {
+        this.estatus = estatus;
     }
-
-    public int getIdAlma() {
-        return idAlma;
-    }
-
-    public void setIdAlma(int idAlma) {
-        this.idAlma = idAlma;
-    }
-    
-    
-    
     
     
     

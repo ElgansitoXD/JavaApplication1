@@ -9,10 +9,10 @@ package bean;
  *
  * @author deleo
  */
-public class Materia {
+public class Carrera {
     
     private int id;
-    private int idGrupo;
+    private int idUniversidad;
     private String nombre;
     private String estatus;
 
@@ -24,12 +24,12 @@ public class Materia {
         this.id = id;
     }
 
-    public int getIdGrupo() {
-        return idGrupo;
+    public int getIdUniversidad() {
+        return idUniversidad;
     }
 
-    public void setIdGrupo(int idGrupo) {
-        this.idGrupo = idGrupo;
+    public void setIdUniversidad(int idUniversidad) {
+        this.idUniversidad = idUniversidad;
     }
 
     public String getNombre() {
@@ -47,10 +47,8 @@ public class Materia {
     public void setEstatus(String estatus) {
         this.estatus = estatus;
     }
-    
 
-    
-    
+   
     
     
 }

@@ -9,11 +9,11 @@ package bean;
  *
  * @author deleo
  */
-public class Alma {
+public class Universidad {
     
     private int id;
-    private int idAlumnos;
-    private int idMaterias;
+    private String nombre;
+    private String estatus;
 
     public int getId() {
         return id;
@@ -23,21 +23,22 @@ public class Alma {
         this.id = id;
     }
 
-    public int getIdAlumnos() {
-        return idAlumnos;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setIdAlumnos(int idAlumnos) {
-        this.idAlumnos = idAlumnos;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public int getIdMaterias() {
-        return idMaterias;
+    public String getEstatus() {
+        return estatus;
     }
 
-    public void setIdMaterias(int idMaterias) {
-        this.idMaterias = idMaterias;
+    public void setEstatus(String estatus) {
+        this.estatus = estatus;
     }
+    
     
     
 }

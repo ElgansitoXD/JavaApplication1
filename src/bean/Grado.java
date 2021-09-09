@@ -12,8 +12,8 @@ package bean;
 public class Grado {
     
     private int id;
-    private String periodo;
-    private String grado;
+    private int idCarrera;
+    private String nombre;
     private String estatus;
 
     public int getId() {
@@ -24,20 +24,20 @@ public class Grado {
         this.id = id;
     }
 
-    public String getPeriodo() {
-        return periodo;
+    public int getIdCarrera() {
+        return idCarrera;
     }
 
-    public void setPeriodo(String periodo) {
-        this.periodo = periodo;
+    public void setIdCarrera(int idCarrera) {
+        this.idCarrera = idCarrera;
     }
 
-    public String getGrado() {
-        return grado;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setGrado(String grado) {
-        this.grado = grado;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getEstatus() {
@@ -47,6 +47,9 @@ public class Grado {
     public void setEstatus(String estatus) {
         this.estatus = estatus;
     }
+
+   
+    
     
     
 }
