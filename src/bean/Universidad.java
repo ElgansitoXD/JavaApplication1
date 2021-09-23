@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 package bean;
-
+import java.io.Serializable;
 /**
  *
  * @author deleo
  */
-public class Universidad {
+public class Universidad implements Serializable {
     
     private int id;
     private String nombre;

@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 package bean;
-
+import java.io.Serializable;
 /**
  *
  * @author deleo
  */
-public class Alumno {
+public class Alumno implements Serializable {
     private static final long serialVersionUID = 1L;
     private int id;
     private int idMateria;

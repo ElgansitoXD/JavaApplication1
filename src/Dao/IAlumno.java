@@ -12,9 +12,9 @@ import bean.Alumno;
  * @author deleo
  */
 public interface IAlumno {
-    public Alumno  consultarAlumno();
-    public Alumno  agregarAlumno();
-    public Alumno  modificarAlumno();
-    public Alumno  eliminarAlumno();
+    public Alumno consultarAlumno(String username, int id);
+    public Alumno agregarAlumno(int id, String nombre, String apellidoPaterno, String apellidoMaterno);
+    public Alumno modificarAlumno(int id);
+    public Alumno eliminarAlumno();
     
 }
