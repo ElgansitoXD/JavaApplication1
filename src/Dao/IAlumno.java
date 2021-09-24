@@ -14,7 +14,7 @@ import bean.Alumno;
 public interface IAlumno {
     public Alumno consultarAlumno(String username, int id);
     public Alumno agregarAlumno(int id, String nombre, String apellidoPaterno, String apellidoMaterno);
-    public Alumno modificarAlumno(int id);
-    public Alumno eliminarAlumno();
+    public Alumno modificarAlumno(String username, String nombre, String apellidoPaterno, String apellidoMaterno, String estatus);
+    public Alumno eliminarAlumno(int id, String estatus);
     
 }
